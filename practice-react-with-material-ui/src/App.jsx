@@ -3,6 +3,7 @@ import Form from "./components/Form";
 import React,{useState} from 'react'
 import Cards from "./components/Cards";
 import Cards2 from "./components/Cards2";
+import Modals from "./components/Modals";
 
 
 
@@ -10,7 +11,7 @@ function App() {
   const [value, setValue] = useState(0);
   return (
     <>
- <AppBar>
+ {/* <AppBar>
 
     <Toolbar>
     <Typography variant="h4">Shoaib Akhter</Typography>
@@ -20,7 +21,7 @@ function App() {
         <Tab label="Contact"/>
       </Tabs>
     </Toolbar>
- </AppBar>
+ </AppBar> */}
 
     {/* <Typography variant="h1" ml={15} sx={{color:"red"}} component={"h6"} > Shoaib Akhter</Typography> */}
     
@@ -35,10 +36,12 @@ function App() {
     
     {/* <Form /> */}
 
-    <div style={{marginTop:"100px"}}>
+    {/* <div style={{marginTop:"100px"}}>
       <Cards />
 
-    </div>
+    </div> */}
+
+    <Modals />
 
     
     
