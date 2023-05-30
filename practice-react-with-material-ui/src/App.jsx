@@ -37,7 +37,7 @@ function App() {
 
     <div style={{marginTop:"100px"}}>
       <Cards />
-      <Cards2 />
+
     </div>
 
     
