@@ -1,12 +1,25 @@
-import {Typography,Button,TextField} from "@mui/material"
+import {Typography,Button,TextField,AppBar,Toolbar,Tabs,Tab} from "@mui/material"
 import Form from "./components/Form";
+import React,{useState} from 'react'
 
 
 function App() {
+  const [value, setValue] = useState(0);
   return (
     <>
+ <AppBar>
+
+    <Toolbar>
+    <Typography variant="h4">Shoaib Akhter</Typography>
+      <Tabs textColor="inherit" value={value} onChange={(e,val)=>setValue(val)} sx={{marginLeft:"auto"}} indicatorColor="secondary">
+        <Tab label="Home"/>
+        <Tab label="About"/>
+        <Tab label="Contact"/>
+      </Tabs>
+    </Toolbar>
+ </AppBar>
+
     {/* <Typography variant="h1" ml={15} sx={{color:"red"}} component={"h6"} > Shoaib Akhter</Typography> */}
-    <h1>Form</h1>
     
     {/* <Button variant="contained" sx={{margin:"50px"}} disabled>First</Button>
     <Button variant="text" color="secondary">Second</Button>
