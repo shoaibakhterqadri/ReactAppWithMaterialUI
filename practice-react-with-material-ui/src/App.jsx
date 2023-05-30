@@ -1,6 +1,9 @@
 import {Typography,Button,TextField,AppBar,Toolbar,Tabs,Tab} from "@mui/material"
 import Form from "./components/Form";
 import React,{useState} from 'react'
+import Cards from "./components/Cards";
+import Cards2 from "./components/Cards2";
+
 
 
 function App() {
@@ -30,7 +33,14 @@ function App() {
 <TextField type="text" placeholder="name" variant="outlined" sx={{margin:"20px"}}></TextField>
 <TextField type="text" placeholder="name" variant="filled" sx={{margin:"20px"}}></TextField> */}
     
-    <Form />
+    {/* <Form /> */}
+
+    <div style={{marginTop:"100px"}}>
+      <Cards />
+      <Cards2 />
+    </div>
+
+    
     
     </>
   );
