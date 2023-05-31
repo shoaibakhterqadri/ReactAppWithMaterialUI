@@ -5,6 +5,7 @@ import Cards from "./components/Cards";
 import Cards2 from "./components/Cards2";
 import Modals from "./components/Modals";
 import Containers from "./components/Containers";
+import ListaComponent from "./components/ListaComponent";
 
 
 
@@ -43,7 +44,8 @@ function App() {
     </div> */}
 
     <Modals />
-    <Containers />
+    {/* <Containers /> */}
+    <ListaComponent />
 
     
     
