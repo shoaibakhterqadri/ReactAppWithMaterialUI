@@ -6,6 +6,7 @@ import Cards2 from "./components/Cards2";
 import Modals from "./components/Modals";
 import Containers from "./components/Containers";
 import ListaComponent from "./components/ListaComponent";
+import Accord from "./components/Accord";
 
 
 
@@ -46,6 +47,7 @@ function App() {
     <Modals />
     {/* <Containers /> */}
     <ListaComponent />
+    <Accord />
 
     
     
