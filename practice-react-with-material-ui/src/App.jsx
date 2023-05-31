@@ -7,7 +7,7 @@ import Modals from "./components/Modals";
 import Containers from "./components/Containers";
 import ListaComponent from "./components/ListaComponent";
 import Accord from "./components/Accord";
-
+import DrawerList from "./components/DrawerList";
 
 
 function App() {
@@ -46,10 +46,10 @@ function App() {
 
     <Modals />
     {/* <Containers /> */}
-    <ListaComponent />
-    <Accord />
+    {/* <ListaComponent />
+    <Accord /> */}
 
-    
+    <DrawerList />
     
     </>
   );
