@@ -4,6 +4,7 @@ import React,{useState} from 'react'
 import Cards from "./components/Cards";
 import Cards2 from "./components/Cards2";
 import Modals from "./components/Modals";
+import Containers from "./components/Containers";
 
 
 
@@ -42,6 +43,7 @@ function App() {
     </div> */}
 
     <Modals />
+    <Containers />
 
     
     

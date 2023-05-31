@@ -1,4 +1,4 @@
-import { Box, Button, Modal, Typography } from '@mui/material';
+import { Box, Button, Link, Modal, Typography } from '@mui/material';
 import React,{useState} from 'react'
 
 function Modals() {
@@ -12,6 +12,8 @@ function Modals() {
             <Button variant='contained' onClick={()=> setOpen(false)}>Cancel</Button>
         </Box>
     </Modal>
+
+    <Link variant='h4' underline='hover' href='https://codingshub.com'>Codings Hub</Link>
     </>
   )
 }
