@@ -1,6 +1,7 @@
 import { Button } from '@mui/base';
-import { Alert, CircularProgress, Drawer, LinearProgress, List, ListItemButton, ListItemText, Rating, Snackbar, Typography } from '@mui/material';
-import React, { useState } from 'react'
+import { Alert, CircularProgress, Drawer, IconButton, LinearProgress, List, ListItemButton, ListItemText, Rating, Snackbar, Typography } from '@mui/material';
+import React, { useState } from 'react';
+import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 
 function DrawerList() {
     const [open,setOpen]=useState(false);
@@ -24,6 +25,11 @@ function DrawerList() {
 <LinearProgress></LinearProgress>
 <Rating size='large' value={value} precision={0.2} onChange={(e,val)=>setValue(val)}></Rating>
 <Typography>Stars Rated is {value!==undefined ?value:0}</Typography>
+<br /><br />
+<IconButton>
+
+<AccountCircleOutlinedIcon />
+</IconButton>
     </>
   )
 }
